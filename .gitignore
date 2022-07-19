@@ -1,0 +1,15 @@
+!node_modules/
+node_modules/*
+node_modules
+!node_modules/oauth2-server/
+node_modules/oauth2-server/*
+!node_modules/oauth2-server/lib/
+node_modules/oauth2-server/lib/*
+!node_modules/oauth2-server/lib/grant.js
+.env
+.jshintrc
+.tern-project
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

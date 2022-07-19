@@ -1,0 +1,9 @@
+HOW SEEDER WILL RUN 
+- Run this command in cmd: 
+npx sequelize db:seed --seed 20180201123559-question_type.js --debug 	// it run specific file
+
+- To run all seeder:
+D:\Project\feedbackwow\feedback-wow-server>npx sequelize db:seed:all
+
+- To create seeder: 1st create model file then run below command for seeder 
+>npx sequelize seed:generate --name <EnterSeederName>
